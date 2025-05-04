@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 // フォント読み込み
 const notojp = Noto_Sans_JP({
-  subsets: ["latin", "latin-ext", "jp"],
+  subsets: ["latin", "latin-ext", "latin"],
   weight: ["400", "700"],
   variable: "--font-notojp",
   display: "swap",
