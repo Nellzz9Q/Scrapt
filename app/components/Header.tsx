@@ -9,7 +9,7 @@ return (
         <Image src="/ScraptzLogo.svg" alt="Scrapt Logo" width={100} height={100} />
         </Link>
         <h1 className="text-3xl font-museo tracking-wide ">
-        <Link href="/" className="font-bold italic">Scrapt</Link>
+        <span className="hidden md:block"><Link href="/" className="font-bold italic">Scrapt</Link></span>
         </h1>
     </div>
     <nav className="space-x-6 text-sm font-poppins">
